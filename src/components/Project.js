@@ -15,7 +15,7 @@ export default function Project(props) {
             <button className="button" style={{
                                 }}onClick={() => {
                                     
-            window.open(process.env.PUBLIC_URL + props.link)}} type="button">
+            window.open(process.env.PUBLIC_URL +'/'+ props.link)}} type="button">
             View Project</button>
 
         </div> 
