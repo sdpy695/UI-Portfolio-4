@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Belgian American Embassy</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="../allStyles.css" /> 
+    <link rel="icon" href="assets/flag.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <div class="NavBar"> 
+
+      <a style="text-decoration: none; color: #282c34; padding: 10px" href="/">
+        <span class="material-symbols-outlined">
+          arrow_back
+          </span>
+          
+        <!-- <i class = "material-icons custom">ArrowBackIcon</i> -->
+        <!-- <h1 style="font-size:calc(1.375rem + 2vw); padding: 10p x" href=""><</h1> -->
+      </a>
+    </div>
+    <div class="main-content">
+      
+      
+      <section id="opener" >
+          <div>
+            <h6  style="margin-bottom: 10px">Responsive Redesign:</h6>
+            <h1 style="margin-top: 10px">The Belgian-American Embassy</h1>
+            
+            <p class="intro">
+              One of the best current resources for Beglian-American expats is <a href="https://unitedstates.diplomatie.belgium.be/en">the website</a> for the Belgian Embassy and Consulates in the United States. 
+              However, the information on the current website is disorganized and particularly difficult to view on a mobile device. I reimagined the page to be more accessible. 
+            </p>
+            <h6 style="padding-top:10%,s">The Original Site</h6>
+            <div style="margin:10%" class="project-image">
+              <!-- <div class="column-two" style="filter: drop-shadow(1px 1px 8px #8a8a8a);"> <img   style = "height:500px; object-fit:contain"  src="assets/old-site-ipad-display.png"></div>
+              <div class="column-two" style=" filter: drop-shadow(1px 1px 8px #8a8a8a);"> <img style = "height:500px; object-fit:contain" src="assets/old-site-mobile-display.png"></div>
+              <div  style="filter: drop-shadow(1px 1px 8px #8a8a8a);"> <img src="assets/old-site-large-display.png"></div> -->
+              <img  src="assets/annotated-mobile.jpg">
+              <img  src="assets/annotated-laptop.jpg">
+          </div>
+
+          <h3>Accessibility</h3>
+          <p>Several fundamental issues with this site make it inaccessible to the target users:</p>
+          <li>The page is full of small text with low contrast against its background</li>
+          <li>The images included don't have alt text, so they can't be interpreted by a screenreader</li>
+          <li>On the mobile version of the site, the buttons are too small for even the most dextrous fingers to reach them on a touchscreen.</li>
+          <li>The language bar gets lost in the corner, allowing for users to be trapped in a version of the site that's in a language they don't understand. In combination with the small buttons, users with less mobility aren't able to access the language change feature.</li>
+          
+            
+          </p>
+        </div>
+      </section>
+
+
+      <section id="opener" >
+        <div>
+          <h6 style="padding-top:10%">The Redesign</h6>
+          
+          <div>
+          <h3 style="margin-top:5%">Low-Fi Prototyping</h3>
+          <p style="margin-bottom: 15%">These prototypes block out how the layout can be designed to adapt to different screen sizes</p>
+          <div  class="project-image"> 
+            <img  src="assets/annotated lowfi mobile.png"> 
+            <img  src="assets/annotated-lowfi-laptop.png"> 
+          </div>
+
+          <h3>Style Guide</h3>
+          <p style="margin-bottom: 10%">The style guide outlines major visual design choices for the main colors, typography, and reusable components’ different states.</p>
+            <div class="project-image"> <img  src="assets/Style Guide.png"> </div>
+          </div>
+
+          <div>
+            <h3>Hi-Fi Prototyping</h3>
+            <p style="margin-bottom: 10%">These protoypes flesh out the feel of the website, sorting the information by target audience and using heirarchies of heading sizes to encourage users to quickly skim the page and find the information they're searching for.</p>
+            <div class="project-image"> 
+              <img   src="assets/annotated-hifi-laptop.png">
+              <img  src="assets/annotated-hifi-mobile.png"> 
+              </div>
+          </div>
+
+          <div style="padding-bottom: 3vmax">
+            <h6 style="margin-top: 15%">The site </h6>
+            <p style="margin-bottom: 10%"><a href="https://sdpy695.github.io/Responsive-Redesign/" target="_blank">The final design</a> is a dummy page made using html and css which is displayed in a more accessible way and can responsively adapt to screen resizing.</p>
+          
+          </div>
+
+          <div>
+            <h3>Reflections</h3>
+            <p style="margin-bottom: 10%">I'd like to continue playing around with ways of further streamlining the experience of accessing information on the embassy's webpage through more interactive components.</p>
+          </div>
+
+        </div> 
+
+
+    </section>
+  
+
+
+  </div>
+</body>
+
+</html>

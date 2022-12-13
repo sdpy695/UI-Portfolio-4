@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Routes, Navigation, Link } from 'react-router-dom';
+ 
+import Home from './Home';
+import NavBar from './components/NavBar';
+import Test from './project pages/CSI/test.js';
+import ResponsiveRedesign from './project pages/ResponsiveRedesign';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const webpack = require('webpack'); //to access built-in plugins
+
+
+class App extends Component {
+  
+  render() {
+    return (      
+       <BrowserRouter>
+        <div>
+          <NavBar />
+            <Routes>
+             <Route path="/" element={<Home/>} exact/>
+             
+             {/* <Route exact target="_blank" path="/CSI/" element= {new HtmlWebpackPlugin({ template: {CSI} })} />new HtmlWebpackPlugin({ template: {CSI} }) */}
+             <Route path="/p" element={<Test/>} exact/>
+            <Route component={Error}/>
+           </Routes>
+           
+        </div> 
+      </BrowserRouter>
+    );
+  }
 }
-
+ 
 export default App;
