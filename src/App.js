@@ -10,7 +10,6 @@ import ResponsiveRedesign from './project pages/ResponsiveRedesign';
 // const HtmlWebpackPlugin = require('html-webpack-plugin');
 // const webpack = require('webpack'); //to access built-in plugins
 
-
 class App extends Component {
   
   render() {
@@ -19,6 +18,7 @@ class App extends Component {
         <div>
           <NavBar />
             <Routes>
+             <Route path="/" element={<Home/>}/>
              <Route path="/" element={<Home/>}/>
              {/* <Route exact target="_blank" path="/CSI/" element= {new HtmlWebpackPlugin({ template: {CSI} })} />new HtmlWebpackPlugin({ template: {CSI} }) */}
              <Route path="/p" element={<Test/>} exact/>
