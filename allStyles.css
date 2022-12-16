@@ -106,6 +106,7 @@ ol{
 .column-two {
   float: left;
   width: 50%;
+  height:max-content;
   /* padding: 30px; */
 }
 
@@ -126,8 +127,7 @@ ol{
 }
 
 #column-wrapper{
-  flex:auto
-  
+  /* flex:auto */
 }
 
 .buffer{
@@ -135,9 +135,9 @@ ol{
 }
 
 #comparison{ 
-  display: flex;
+  /* display: flex; */
   /* align-items: stretch-center; */
-  flex-flow: row wrap; 
+  /* flex-flow: row wrap;  */
   /* justify-content: space-around; */
   padding-top: 2.5%; 
   padding-right: 10%;
@@ -450,11 +450,13 @@ img {
 }
 
 .project-image :hover{
-  transform: scale(1.6);
-
-  transition: .2s;
+  transform: scale(1.1);
+  transition: .1s;
 }
-
+.project-image:active{
+  transform: scale(1.5);
+  transition: .1s;
+}
 
 .userTestWrapper {
   display: flex;
