@@ -259,13 +259,22 @@ body {
   .Project{
     width: 100%;
   } */
-
+  p
+  
   .bio{
     padding-top: 18vmax;
   }
 
   .Project{
     width: 90%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: max(inherit,10pt);
+    color:#282c34;
+   }
+  body{
+    font-size: max(inherit,8pt);
   }
 }
 html { position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: auto; }

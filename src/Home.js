@@ -59,14 +59,14 @@ const Home = () => {
       <div className="AppCenter">
         <div className="topBuffer"></div>
         <div style={{}} className="bio"> 
-          pop
+
         
         <p style={{"fontSize":"calc(1.375rem + 1.0vw)"}}>Hi, my name is [Redacted]! I'm a Computer Science Student at Brown University. <b>I care about design that is clean, conscious, and deliberate.</b></p>
         
         </div>
-        <button onClick={console.log('eeee')}>
-          <KeyboardArrowDownIcon />
-        </button>
+        <IconButton size="large" style={{'color':'#000000'}} onClick={()=>ScrollDown()}>
+              <KeyboardArrowDownIcon style={{'width':'2.2em', 'height':'2.2em'}} />
+            </IconButton>
         {WorkGallery()}
       </div>
       
