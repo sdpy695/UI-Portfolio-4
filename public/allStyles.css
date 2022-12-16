@@ -27,8 +27,8 @@ Selects all image tags and makes them 500px;
   flex-flow: row wrap; 
   justify-content: space-around;
   padding-top: 2.5%;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 20%;
+  padding-left: 20%;
   padding-bottom: 2.5%;
 
 }
