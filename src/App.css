@@ -63,9 +63,13 @@ body {
 
     position: relative;
   top: 50%;
-  width:65%;
+
   transform: translateY(-50%);
   object-fit: cover;
+}
+
+.scroller:active{
+ 
 }
 
 .product-desc{
@@ -264,3 +268,5 @@ body {
     width: 90%;
   }
 }
+html { position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: auto; }
+body { width: 100%; height: auto; }

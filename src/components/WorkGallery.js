@@ -9,7 +9,7 @@ export default function WorkGallery(props)  {
   
 
     return(
-        <div className= "workGallery">
+        <div id="workGallery" className= "workGallery">
              {projects.map((project) => ( // TODO: map bakeryData to BakeryItem components
             Project(project) ))}
              
