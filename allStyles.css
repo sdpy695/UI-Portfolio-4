@@ -228,7 +228,7 @@ img {
   display: flex;
   float: top;
   justify-content: space-around;
-  /* width:  65%; */
+  width:  65%;
   /* height: 700px; */
   object-fit: cover;
   justify-content: center;
