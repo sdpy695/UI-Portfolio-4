@@ -63,6 +63,7 @@ body {
 
     position: relative;
   top: 50%;
+  width:65%;
   transform: translateY(-50%);
   object-fit: cover;
 }
