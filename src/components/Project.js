@@ -3,7 +3,6 @@ import Button from '@mui/material/Button';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 export default function Project(props) {
-    console.log('porjects', props)
 
     return(
 
