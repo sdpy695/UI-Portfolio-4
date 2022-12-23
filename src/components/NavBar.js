@@ -49,15 +49,15 @@ const NavBar= () => {
         {/* <a style={{"padding": "10px"}} target="_blank"  href="mailto:chloe_de_campos@brown.edu">{ LinkedInIcon}</a>  */}
         {/* <a style={{"padding": "10px"}} target="_blank" href="https://www.linkedin.com/in/chloedecampos">Link me in</a>
         <a style={{"padding": "10px"}} target="_blank"  href="https://www.instagram.com/stink.lines/">Look at my cartoons</a> */}
-        <Button style={{"margin": "10px"}} onClick={() => alert("link intentionally broken for anonymization")}>
+        <Button style={{"margin": "10px"}} href="https://www.linkedin.com/in/chloedecampos">
           {/* Link me in */}
           <LinkedInIcon/>
         </Button>
-        <Button style={{"margin": "10px"}} onClick={() => alert("link intentionally broken for anonymization")}>
+        <Button style={{"margin": "10px"}} href="mailto:chloe_de_campos@brown.edu">
           {/* Email  */}
           <EmailIcon/>
         </Button>
-        <Button style={{"margin": "10px"}} title="poop" onClick={() => alert("link intentionally broken for anonymization")}>
+        <Button style={{"margin": "10px"}} title="poop" href="https://www.instagram.com/stink.lines/">
           {/* See my Cartoons */}
           <EmojiPeopleIcon/>
         </Button>
