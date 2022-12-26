@@ -11,10 +11,9 @@ export default function Project(props) {
             <img src={props.image}/>
             <p style={{"marginTop":"10%", "marginBottom":"2%"}}>{props.desc}</p>
             
-            <button className="button" style={{
-                                }}onClick={() => {
+            <button className="button" onClick={() => {
                                     
-            window.open(process.env.PUBLIC_URL +'/'+ props.link)}} type="button">
+                                    window.location.href=props.link}} type="button">
             View Project</button>
 
         </div> 
