@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Routes, Navigation, Link } from 'react-router-dom';
  
 import Home from './Home';
-import About from './About';
+import About from './About.js';
 import NavBar from './components/NavBar';
 import Test from './project pages/CSI/test.js';
 import ResponsiveRedesign from './project pages/ResponsiveRedesign';
