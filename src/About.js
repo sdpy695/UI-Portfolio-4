@@ -36,13 +36,9 @@ const About = () => {
                         </p>
         
                         <p>
-                        I'm studying Computer Science at Brown University and have gained valuable experience through internships at <a href="https://www.sasaki.com/">Sasaki</a> and the <a href="https://www.sustaininfrastructure.org/">Center for Sustainable Infrastructure</a>. I have a strong foundation in design principles and am proficient in design software such as Adobe Creative Suite and Figma.
+                        I'm currently in my third year of Computer Science at Brown University. I've gained valuable experience through internships at <a href="https://www.sasaki.com/">Sasaki</a> and the <a href="https://www.sustaininfrastructure.org/">Center for Sustainable Infrastructure</a>, and a term at the <a href="https://berlinartinstitute.com/">Berlin Art Institute</a>. I have a strong foundation in design principles and am proficient in design software such as Adobe Creative Suite and Figma.
                         </p>
-                        <p>
-                        I am always looking for opportunities to grow and learn as a designer, and I am excited to bring my skills and creativity to new challenges.
-                    
-
-                        </p>
+        
                         <p>
                         In my spare time, you can find me playing ultimate frisbee and drawing little cartoons. I am always looking for new opportunities to grow and improve as a designer, and I am excited to see where my career takes me next.
                         </p>
