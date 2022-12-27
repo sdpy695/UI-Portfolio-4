@@ -45,7 +45,7 @@ const NavBar= () => {
   if(window.matchMedia("(min-width: 600px)").matches){
     return (
       <div style={{padding:padding}} className="NavBar">
-         <NavLink style={{ textDecoration: 'none', color: "black"}} to="/"><h1 style={{"fontSize":"calc(1.375rem + 2vw)", "padding":"10px"}} href="">Chloe de Campos</h1></NavLink>
+         <NavLink style={{ textDecoration: 'none', color: "black"}} to="/"><h1 style={{"fontSize":"calc(1.375rem + 2vw)", "padding":"10px"}} href="/">Chloe de Campos</h1></NavLink>
         <div className="NavButtons">
         {/* <a style={{"padding": "10px"}} target="_blank"  href="mailto:chloe_de_campos@brown.edu">{ LinkedInIcon}</a>  */}
         {/* <a style={{"padding": "10px"}} target="_blank" href="https://www.linkedin.com/in/chloedecampos">Link me in</a>
