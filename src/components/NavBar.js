@@ -50,7 +50,7 @@ const NavBar= () => {
         {/* <a style={{"padding": "10px"}} target="_blank"  href="mailto:chloe_de_campos@brown.edu">{ LinkedInIcon}</a>  */}
         {/* <a style={{"padding": "10px"}} target="_blank" href="https://www.linkedin.com/in/chloedecampos">Link me in</a>
         <a style={{"padding": "10px"}} target="_blank"  href="https://www.instagram.com/stink.lines/">Look at my cartoons</a> */}
-        <Button title="about me" style={{"margin": "10px"}} href="https://sdpy695.github.io/UI-Portfolio-4/#/about">
+        <Button title="about me" style={{"margin": "10px"}} href="https://sdpy695.github.io/UI-Portfolio-4/about">
           {/* See my Cartoons */}
           <PersonIcon/>
         </Button>
