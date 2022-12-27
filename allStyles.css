@@ -29,7 +29,7 @@ Selects all image tags and makes them 500px;
   padding-top: 2.5%;
   padding-right: 15%;
   padding-left: 15%;
-  padding-bottom: 2.5%;
+  padding-bottom: 10%;
 
 }
 .center {
@@ -155,6 +155,7 @@ ol{
 .AppCenter{
   padding-left: 10%;
   padding-right:10%;
+  padding-bottom: 5%;
   padding-top: 16vmax;
 }
 
