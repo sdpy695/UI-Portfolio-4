@@ -6,7 +6,7 @@ import { useState } from "react";
 
 import NavBar from './components/NavBar';
 
-const About = () => {
+function About ()  {
   return(
         <div>
             <h6>Hi there!</h6>
