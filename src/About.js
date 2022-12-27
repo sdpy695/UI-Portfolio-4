@@ -24,8 +24,8 @@ const About = () => {
           <div className="mainApp"> 
           
           <div className="AppCenter">
-            <div className="topBuffer"></div>
-            <div id="about!">
+            <div  className="topBuffer"></div>
+            <div style="margin: 30% 15% 10% 15%" id="about!">
                     
                     <h6>Hi there!</h6>
                         
@@ -46,7 +46,7 @@ const About = () => {
                         </p>
                         <p>
                         Thank you for taking the time to visit my portfolio. I hope you enjoy browsing my work and getting to know more about me as a designer.
-                        
+
                     </p>
                 </div> 
           </div>
