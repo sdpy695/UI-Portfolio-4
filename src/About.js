@@ -13,20 +13,10 @@ import IconButton from '@mui/material/IconButton';
 const About = () => {
   return(
         <div className="mainApp"> 
-            <div class="NavBar"> 
-
-                    <a style="text-decoration: none; color: #282c34; padding: 10px" href="https://sdpy695.github.io/UI-Portfolio-4/">
-                    <span class="material-symbols-outlined">
-                    arrow_back
-                    </span>
-
-
-                    </a>
-
-            </div>        
+         
 
             <div className="AppCenter">
-                    <div  className="topBuffer"></div>
+
                  <div style="margin: 30% 15% 10% 15%" id="about!">
                     
                     <h6>Hi there!</h6>
