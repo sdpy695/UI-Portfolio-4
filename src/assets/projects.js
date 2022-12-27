@@ -16,7 +16,12 @@ const projects = [
     "desc": "An interactive webpage using React.js" ,
     },
 
-    
+    {"name": "The Egg Project",
+    "link": "Egg Project/index.html",
+    "image": Carton,
+    "desc": "Interactive web design to visualize a math problem" ,
+    },
+
     {"name": "The Belgian Embassy",
     "link": "Responsive-Redesign/index.html",
     "image": Resp,
@@ -42,12 +47,7 @@ const projects = [
     "desc": "Isometric graphic design for a non-profit" ,
     },
 
-    {"name": "The Egg Project",
-    "link": "Egg Project/index.html",
-    "image": Carton,
-    "desc": "Interactive web design to visualize a math problem" ,
-    },
-
+   
 
 
 ]

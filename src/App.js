@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { HashRouter, Route, Routes, Navigation, Link } from 'react-router-dom';
  
 import Home from './Home';
+import About from './About';
 import NavBar from './components/NavBar';
 import Test from './project pages/CSI/test.js';
 import ResponsiveRedesign from './project pages/ResponsiveRedesign';
@@ -19,9 +20,8 @@ class App extends Component {
           <NavBar />
             <Routes>
              <Route path="/" element={<Home/>}/>
-             <Route path="/" element={<Home/>}/>
              {/* <Route exact target="_blank" path="/CSI/" element= {new HtmlWebpackPlugin({ template: {CSI} })} />new HtmlWebpackPlugin({ template: {CSI} }) */}
-             <Route path="/p" element={<Test/>} exact/>
+             <Route exact path="/About" element={<About/>}/>
             <Route component={Error}/>
            </Routes>
            

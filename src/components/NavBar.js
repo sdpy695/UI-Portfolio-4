@@ -13,6 +13,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Icon } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
+import PersonIcon from '@mui/icons-material/Person';
 
 import { IconButton } from '@mui/material';
 
@@ -20,7 +21,7 @@ import { IconButton } from '@mui/material';
 import * as React from 'react';
 
 import { NavLink } from 'react-router-dom';
-
+import About from '../About.js'
 
 const NavBar= () => {
 
@@ -49,15 +50,19 @@ const NavBar= () => {
         {/* <a style={{"padding": "10px"}} target="_blank"  href="mailto:chloe_de_campos@brown.edu">{ LinkedInIcon}</a>  */}
         {/* <a style={{"padding": "10px"}} target="_blank" href="https://www.linkedin.com/in/chloedecampos">Link me in</a>
         <a style={{"padding": "10px"}} target="_blank"  href="https://www.instagram.com/stink.lines/">Look at my cartoons</a> */}
-        <Button style={{"margin": "10px"}} target="_blank" href="https://www.linkedin.com/in/chloedecampos">
+        <Button title="about me" style={{"margin": "10px"}} href="/about/">
+          {/* See my Cartoons */}
+          <PersonIcon/>
+        </Button>
+        <Button title="link me in" style={{"margin": "10px"}} target="_blank" href="https://www.linkedin.com/in/chloedecampos">
           {/* Link me in */}
           <LinkedInIcon/>
         </Button>
-        <Button style={{"margin": "10px"}} target="_blank"  href="mailto:chloe_de_campos@brown.edu">
+        <Button title="email me" style={{"margin": "10px"}} target="_blank"  href="mailto:chloe_de_campos@brown.edu">
           {/* Email  */}
           <EmailIcon/>
         </Button>
-        <Button style={{"margin": "10px"}} target="_blank"  href="https://www.instagram.com/stink.lines/">
+        <Button title="see my cartoons" style={{"margin": "10px"}} target="_blank"  href="https://www.instagram.com/stink.lines/">
           {/* See my Cartoons */}
           <EmojiPeopleIcon/>
         </Button>
