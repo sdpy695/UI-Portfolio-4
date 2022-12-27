@@ -21,7 +21,7 @@ class App extends Component {
             <Routes>
              <Route path="/" element={<Home/>}/>
              {/* <Route exact target="_blank" path="/CSI/" element= {new HtmlWebpackPlugin({ template: {CSI} })} />new HtmlWebpackPlugin({ template: {CSI} }) */}
-             <Route path="/about" element={<About/>}/>
+             <Route path="/UI-Portfolio-4/about" element={<About/>}/>
             <Route component={Error}/>
            </Routes>
            
