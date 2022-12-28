@@ -24,7 +24,7 @@ class App extends Component {
              <Route path="/about" element={<About/>}/>
             <Route component={Error}/>
            </Routes>
-           <p>made with love in providence, ri</p>
+           <p style="font-size: 8px; ">made with love in providence, ri</p>
         </div> 
       </BrowserRouter>
     );
