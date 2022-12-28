@@ -13,7 +13,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import IconButton from '@mui/material/IconButton';
 
 
-const Home = () => {
+function Home () {
   
   function ScrollDown() {
     window.focus();
