@@ -13,7 +13,7 @@ export default function Project(props) {
             
             <button className="button" onClick={() => {
                                     
-                                    window.location.href="UI-Portfolio-4/"+props.link}} type="button">
+                                    window.location.href="/UI-Portfolio-4/"+props.link}} type="button">
             View Project</button>
 
         </div> 
