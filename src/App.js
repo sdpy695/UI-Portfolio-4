@@ -19,9 +19,9 @@ class App extends Component {
         <div>
           <NavBar />
             <Routes>
-             {/* <Route path="/" element={<Home/>}/> */}
+             <Route path="/" element={<Home/>}/>
              {/* <Route exact target="_blank" path="/CSI/" element= {new HtmlWebpackPlugin({ template: {CSI} })} />new HtmlWebpackPlugin({ template: {CSI} }) */}
-             <Route path="/" element={<About/>}/>
+             <Route path="/about" element={<About/>}/>
             <Route component={Error}/>
            </Routes>
            <p>made with love in providence, ri</p>

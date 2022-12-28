@@ -8,7 +8,14 @@ import NavBar from './components/NavBar';
 
 function About ()  {
   return(
-        <div>
+        
+        <div className="mainApp"> 
+         
+
+            <div className="AppCenter">
+
+                 <div style="margin: 30% 15% 10% 15%" id="about!">
+                 <div>
             <h6>Hi there!</h6>
                                 
             <p>
@@ -26,18 +33,11 @@ function About ()  {
             Thank you for taking the time to visit my portfolio. I am always looking for opportunities to grow and learn as a designer, and I am excited to bring my skills and creativity to new challenges.
             </p>
         </div>
-        // <div className="mainApp"> 
-         
-
-        //     <div className="AppCenter">
-
-        //          <div style="margin: 30% 15% 10% 15%" id="about!">
-                    
                    
-        //         </div> 
-        //      </div>
+                </div> 
+             </div>
           
-        // </div>
+        </div>
   )
 
 
