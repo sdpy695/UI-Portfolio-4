@@ -6,7 +6,7 @@ import { useState } from "react";
 
 import NavBar from './components/NavBar';
 
-function About ()  {
+const About = () => {
   return(
         
         <div className="mainApp"> 
@@ -14,7 +14,7 @@ function About ()  {
 
             <div className="AppCenter">
 
-                 <div style="margin: 30% 15% 10% 15%" id="about!">
+                 <div style={{"margin": "30% 15% 10% 15%"}} id="about!">
                     <div>
                         <h6>Hi there!</h6>
                                             
@@ -138,7 +138,7 @@ function About ()  {
      
 }
 
-export default About;
+export default <About/>;
 
 
 
