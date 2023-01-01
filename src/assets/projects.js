@@ -5,6 +5,7 @@ import Pers from "./Personas.png"
 import Dev from "./Development.png"
 import Mat from "./Cleanmaterials.png"
 import Egg from './egg.png'
+import Mars from '../assets/marscreenshot.png'
 import Carton from './carton.jpeg'
 
 const projects = [
@@ -20,6 +21,12 @@ const projects = [
     "link": "Egg Project/index.html",
     "image": Carton,
     "desc": "Interactive web design to visualize a math problem" ,
+    },
+
+    {"name": "Mars",
+    "link": "mars.html",
+    "image": Mars,
+    "desc": "An impractical communication system for students" ,
     },
 
     {"name": "The Belgian Embassy",
