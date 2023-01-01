@@ -110,7 +110,7 @@ import IconButton from '@mui/material/IconButton';
             </IconButton>
             </div>
         {WorkGallery()}
-        <p id="bottombar" style="font-size: 8px;">Made with love in Providence, RI.</p>
+        {/* <p id="bottombar" style="font-size: 8px;">Made with love in Providence, RI.</p> */}
       </div>
       
       </div>
